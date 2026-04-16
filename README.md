@@ -47,7 +47,7 @@ mvn spring-boot:run
 Set up your database credentials in `application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:postgres://localhost:3306/employee_db
+spring.datasource.url=jdbc:postgresql://localhost:3306/employee_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
