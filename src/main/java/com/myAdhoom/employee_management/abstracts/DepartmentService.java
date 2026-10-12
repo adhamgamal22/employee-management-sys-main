@@ -8,7 +8,7 @@ import java.util.UUID;
 
 public interface DepartmentService {
   Department findOne(UUID departmentId);
-
+   
   List<Department> findAll();
 
   Department createOne(DepartmentCreate department);
